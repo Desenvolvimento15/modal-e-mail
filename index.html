@@ -79,6 +79,11 @@ border: solid 0.1rem #cccc;
 font-size: 1rem;
 }
 
+
+input:hover{
+border: #ff6900 solid;
+}
+
 .p-center{
 margin-top: 0.5rem;
 margin-bottom: 0.5rem;
@@ -98,10 +103,14 @@ align-items: center;
 text-align: center;
 }
 
+
+
 ::placeholder{text-align: center;}
 
 .desk{display: block;}
 .mob{display: none;}
+
+
 
 @media screen and (max-width: 920px) {
 
@@ -139,8 +148,16 @@ border-radius: 1rem;
 <div id="myModal" class="modal">
 <span class="close" onclick="closeModal()">&times;</span>
 
-<h2><ion-icon name="notifications" style="color: #ff6900; font-size: 3rem;"></ion-icon>Cadastre-se e ative seu benefício!</h2>
-<p class="p-center">Ao continuar, você declara que leu e assinou nossos termos e condições.</p>
+<h2><ion-icon name="notifications" style="color: #ff6900; font-size: 3rem;"></ion-icon>Inscreva-se para não perder nenhuma das nossas novidades</h2>
+<p class="p-center">Ao continuar, você declara que leu nossos termos e condições.</p>
+<a href="https://www.mibrasil.com.br/politicas-de-privacidade" target="_blank" rel="noopener noreferrer" style="
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ff6900;
+    margin: 0 auto;
+    display: block;
+    padding: 0.3rem;">politicas-de-privacidade</a>
 <form>
 
 <input type="email" id="email" name="email"  placeholder="seu melhor e-mail" required>
