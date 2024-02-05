@@ -106,62 +106,7 @@ text-align: center;
 .desk{display: block;}
 .mob{display: none;}
 
-@-webkit-keyframes ring {
-  0% {
-    -webkit-transform: rotate(-15deg);
-    transform: rotate(-15deg);
-  }
 
-  2% {
-    -webkit-transform: rotate(15deg);
-    transform: rotate(15deg);
-  }
-
-  4% {
-    -webkit-transform: rotate(-18deg);
-    transform: rotate(-18deg);
-  }
-
-  6% {
-    -webkit-transform: rotate(18deg);
-    transform: rotate(18deg);
-  }
-
-  8% {
-    -webkit-transform: rotate(-22deg);
-    transform: rotate(-22deg);
-  }
-
-  10% {
-    -webkit-transform: rotate(22deg);
-    transform: rotate(22deg);
-  }
-
-  12% {
-    -webkit-transform: rotate(-18deg);
-    transform: rotate(-18deg);
-  }
-
-  14% {
-    -webkit-transform: rotate(18deg);
-    transform: rotate(18deg);
-  }
-
-  16% {
-    -webkit-transform: rotate(-12deg);
-    transform: rotate(-12deg);
-  }
-
-  18% {
-    -webkit-transform: rotate(12deg);
-    transform: rotate(12deg);
-  }
-
-  20% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-}
 
 @keyframes ring {
   0% {
@@ -241,116 +186,8 @@ text-align: center;
   transform-origin-z: initial;
 }
 
-/* VERTICAL */
 
-@-webkit-keyframes vertical {
-  0% {
-    -webkit-transform: translate(0,-3px);
-    transform: translate(0,-3px);
-  }
-
-  4% {
-    -webkit-transform: translate(0,3px);
-    transform: translate(0,3px);
-  }
-
-  8% {
-    -webkit-transform: translate(0,-3px);
-    transform: translate(0,-3px);
-  }
-
-  12% {
-    -webkit-transform: translate(0,3px);
-    transform: translate(0,3px);
-  }
-
-  16% {
-    -webkit-transform: translate(0,-3px);
-    transform: translate(0,-3px);
-  }
-
-  20% {
-    -webkit-transform: translate(0,3px);
-    transform: translate(0,3px);
-  }
-
-  22% {
-    -webkit-transform: translate(0,0);
-    transform: translate(0,0);
-  }
-}
-
-@keyframes vertical {
-  0% {
-    -webkit-transform: translate(0,-3px);
-    -ms-transform: translate(0,-3px);
-    transform: translate(0,-3px);
-  }
-
-  4% {
-    -webkit-transform: translate(0,3px);
-    -ms-transform: translate(0,3px);
-    transform: translate(0,3px);
-  }
-
-  8% {
-    -webkit-transform: translate(0,-3px);
-    -ms-transform: translate(0,-3px);
-    transform: translate(0,-3px);
-  }
-
-  12% {
-    -webkit-transform: translate(0,3px);
-    -ms-transform: translate(0,3px);
-    transform: translate(0,3px);
-  }
-
-  16% {
-    -webkit-transform: translate(0,-3px);
-    -ms-transform: translate(0,-3px);
-    transform: translate(0,-3px);
-  }
-
-  20% {
-    -webkit-transform: translate(0,3px);
-    -ms-transform: translate(0,3px);
-    transform: translate(0,3px);
-  }
-
-  22% {
-    -webkit-transform: translate(0,0);
-    -ms-transform: translate(0,0);
-    transform: translate(0,0);
-  }
-}
-
-.faa-vertical.animated,
-.faa-vertical.animated-hover:hover,
-.faa-parent.animated-hover:hover > .faa-vertical {
-  -webkit-animation: vertical 2s ease infinite;
-  animation: vertical 2s ease infinite;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 920px) {
+@media screen and (min-width: 0px) and (max-width:1000px){
 
 
 .desk{display: none;}
@@ -384,7 +221,7 @@ border-radius: 1rem;
 <div id="myModal" class="modal">
 <span class="close" onclick="closeModal()">&times;</span>
 
-<h2><ion-icon name="notifications" style="color: #ff6900; font-size: 3rem;" class="fa fa-bell faa-ring animated fa-4x"></ion-icon>Inscreva-se para não perder nenhuma das nossas novidades</h2>
+<h2><ion-icon name="notifications" style="color: #ff6900; font-size: 3rem;" class=" faa-ring animated "></ion-icon>Inscreva-se para não perder nenhuma das nossas novidades</h2>
 <p class="p-center">Ao continuar, você declara que leu nossos termos e condições.</p>
 <a href="https://www.mibrasil.com.br/politicas-de-privacidade" target="_blank" rel="noopener noreferrer" style="text-align: center; text-decoration: none; color: #ff6900; margin: 0 auto; display: block; padding: 0.3rem;">politicas de privacidade</a>
 <form>
